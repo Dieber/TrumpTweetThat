@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F024179D1CEF013700032746 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = F024179C1CEF013700032746 /* title.png */; };
+		F024179F1CEF02D700032746 /* checkoutsize.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F024179E1CEF02D700032746 /* checkoutsize.jpg */; };
+		F09C0E191CEC47DC004EE7F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F09C0E181CEC47DC004EE7F6 /* main.m */; };
+		F09C0E1C1CEC47DC004EE7F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F09C0E1B1CEC47DC004EE7F6 /* AppDelegate.m */; };
+		F09C0E221CEC47DC004EE7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09C0E201CEC47DC004EE7F6 /* Main.storyboard */; };
+		F09C0E241CEC47DC004EE7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09C0E231CEC47DC004EE7F6 /* Assets.xcassets */; };
+		F09C0E271CEC47DC004EE7F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09C0E251CEC47DC004EE7F6 /* LaunchScreen.storyboard */; };
+		F09C0E321CEC47DC004EE7F6 /* TrumpTweetThatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F09C0E311CEC47DC004EE7F6 /* TrumpTweetThatTests.m */; };
+		F09C0E3D1CEC47DD004EE7F6 /* TrumpTweetThatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F09C0E3C1CEC47DD004EE7F6 /* TrumpTweetThatUITests.m */; };
+		F09C0E4C1CEC8BB9004EE7F6 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09C0E4B1CEC8BB9004EE7F6 /* SettingViewController.m */; };
+		F09C0E521CEDD00B004EE7F6 /* SettingPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09C0E511CEDD00B004EE7F6 /* SettingPhotoViewController.m */; };
+		F09C0E591CEDEA38004EE7F6 /* 3C8EDC089AD13D2FFAD62BC8C2620FEB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F09C0E561CEDEA38004EE7F6 /* 3C8EDC089AD13D2FFAD62BC8C2620FEB.jpg */; };
+		F09C0E5A1CEDEA38004EE7F6 /* 51DEFAE8986A22577E0AA998B3D89DF2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F09C0E571CEDEA38004EE7F6 /* 51DEFAE8986A22577E0AA998B3D89DF2.jpg */; };
+		F09C0E5B1CEDEA38004EE7F6 /* 59A553EFB03733F4A179ABA4D0237F07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F09C0E581CEDEA38004EE7F6 /* 59A553EFB03733F4A179ABA4D0237F07.jpg */; };
+		F09C0E671CEDF30F004EE7F6 /* CalCulatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F09C0E661CEDF30F004EE7F6 /* CalCulatedView.m */; };
+		F09C0E6D1CEDF828004EE7F6 /* CompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09C0E6C1CEDF828004EE7F6 /* CompleteViewController.m */; };
+		F09C0E721CEEE5C4004EE7F6 /* bottomphoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F09C0E6F1CEEE5C4004EE7F6 /* bottomphoto.jpg */; };
+		F0F7CAF21CF18D5100302568 /* NextTweet.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F7CAF11CF18D5100302568 /* NextTweet.png */; };
+		F0F7CAF41CF1BC3F00302568 /* Trump.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F7CAF31CF1BC3F00302568 /* Trump.png */; };
+		F0F7CAFA1CF28EB700302568 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F7CAF91CF28EB700302568 /* plus.png */; };
+		F0F7CAFC1CF2A1BA00302568 /* basedphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F7CAFB1CF2A1BA00302568 /* basedphoto.png */; };
+		F0F7CB001CF2B7CA00302568 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0F7CB021CF2B7CA00302568 /* Localizable.strings */; };
+		F0F7CB041CF2BD6500302568 /* TrumpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F7CB031CF2BD6500302568 /* TrumpIcon.png */; };
+		F0F7CB061CF2BD6D00302568 /* TrumpIconAlpha.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F7CB051CF2BD6D00302568 /* TrumpIconAlpha.png */; };
+		F0F7CB0A1CF2C4A900302568 /* DonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F7CB091CF2C4A900302568 /* DonateViewController.m */; };
+		F0F7CB0C1CF2EA9100302568 /* Donateed.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F7CB0B1CF2EA9100302568 /* Donateed.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F09C0E2E1CEC47DC004EE7F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09C0E0C1CEC47DC004EE7F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09C0E131CEC47DC004EE7F6;
+			remoteInfo = TrumpTweetThat;
+		};
+		F09C0E391CEC47DD004EE7F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09C0E0C1CEC47DC004EE7F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09C0E131CEC47DC004EE7F6;
+			remoteInfo = TrumpTweetThat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F024179C1CEF013700032746 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		F024179E1CEF02D700032746 /* checkoutsize.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checkoutsize.jpg; sourceTree = "<group>"; };
+		F09C0E141CEC47DC004EE7F6 /* TrumpTweetThat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrumpTweetThat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09C0E181CEC47DC004EE7F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F09C0E1A1CEC47DC004EE7F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F09C0E1B1CEC47DC004EE7F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F09C0E211CEC47DC004EE7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09C0E231CEC47DC004EE7F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09C0E261CEC47DC004EE7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F09C0E281CEC47DC004EE7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09C0E2D1CEC47DC004EE7F6 /* TrumpTweetThatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpTweetThatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09C0E311CEC47DC004EE7F6 /* TrumpTweetThatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrumpTweetThatTests.m; sourceTree = "<group>"; };
+		F09C0E331CEC47DC004EE7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09C0E381CEC47DD004EE7F6 /* TrumpTweetThatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpTweetThatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09C0E3C1CEC47DD004EE7F6 /* TrumpTweetThatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrumpTweetThatUITests.m; sourceTree = "<group>"; };
+		F09C0E3E1CEC47DD004EE7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09C0E4A1CEC8BB9004EE7F6 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		F09C0E4B1CEC8BB9004EE7F6 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		F09C0E501CEDD00B004EE7F6 /* SettingPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingPhotoViewController.h; sourceTree = "<group>"; };
+		F09C0E511CEDD00B004EE7F6 /* SettingPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingPhotoViewController.m; sourceTree = "<group>"; };
+		F09C0E561CEDEA38004EE7F6 /* 3C8EDC089AD13D2FFAD62BC8C2620FEB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3C8EDC089AD13D2FFAD62BC8C2620FEB.jpg; sourceTree = "<group>"; };
+		F09C0E571CEDEA38004EE7F6 /* 51DEFAE8986A22577E0AA998B3D89DF2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 51DEFAE8986A22577E0AA998B3D89DF2.jpg; sourceTree = "<group>"; };
+		F09C0E581CEDEA38004EE7F6 /* 59A553EFB03733F4A179ABA4D0237F07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 59A553EFB03733F4A179ABA4D0237F07.jpg; sourceTree = "<group>"; };
+		F09C0E651CEDF30F004EE7F6 /* CalCulatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalCulatedView.h; sourceTree = "<group>"; };
+		F09C0E661CEDF30F004EE7F6 /* CalCulatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalCulatedView.m; sourceTree = "<group>"; };
+		F09C0E6B1CEDF828004EE7F6 /* CompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteViewController.h; sourceTree = "<group>"; };
+		F09C0E6C1CEDF828004EE7F6 /* CompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteViewController.m; sourceTree = "<group>"; };
+		F09C0E6F1CEEE5C4004EE7F6 /* bottomphoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottomphoto.jpg; sourceTree = "<group>"; };
+		F0F7CAF11CF18D5100302568 /* NextTweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextTweet.png; sourceTree = "<group>"; };
+		F0F7CAF31CF1BC3F00302568 /* Trump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trump.png; sourceTree = "<group>"; };
+		F0F7CAF91CF28EB700302568 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		F0F7CAFB1CF2A1BA00302568 /* basedphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basedphoto.png; sourceTree = "<group>"; };
+		F0F7CB011CF2B7CA00302568 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F0F7CB031CF2BD6500302568 /* TrumpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrumpIcon.png; sourceTree = "<group>"; };
+		F0F7CB051CF2BD6D00302568 /* TrumpIconAlpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrumpIconAlpha.png; sourceTree = "<group>"; };
+		F0F7CB081CF2C4A900302568 /* DonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateViewController.h; sourceTree = "<group>"; };
+		F0F7CB091CF2C4A900302568 /* DonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateViewController.m; sourceTree = "<group>"; };
+		F0F7CB0B1CF2EA9100302568 /* Donateed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Donateed.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09C0E111CEC47DC004EE7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09C0E2A1CEC47DC004EE7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09C0E351CEC47DC004EE7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09C0E0B1CEC47DC004EE7F6 = {
+			isa = PBXGroup;
+			children = (
+				F09C0E161CEC47DC004EE7F6 /* TrumpTweetThat */,
+				F09C0E301CEC47DC004EE7F6 /* TrumpTweetThatTests */,
+				F09C0E3B1CEC47DD004EE7F6 /* TrumpTweetThatUITests */,
+				F09C0E151CEC47DC004EE7F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09C0E151CEC47DC004EE7F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09C0E141CEC47DC004EE7F6 /* TrumpTweetThat.app */,
+				F09C0E2D1CEC47DC004EE7F6 /* TrumpTweetThatTests.xctest */,
+				F09C0E381CEC47DD004EE7F6 /* TrumpTweetThatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09C0E161CEC47DC004EE7F6 /* TrumpTweetThat */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7CB071CF2C47B00302568 /* DonatePage */,
+				F09C0E531CEDD907004EE7F6 /* resource */,
+				F09C0E4F1CEDCFD7004EE7F6 /* CompletePage */,
+				F09C0E641CEDF2E3004EE7F6 /* CalculateView */,
+				F09C0E4E1CEDCFB7004EE7F6 /* SettingPhotoPage */,
+				F09C0E4D1CEDCF9B004EE7F6 /* SettingTextPage */,
+				F09C0E1A1CEC47DC004EE7F6 /* AppDelegate.h */,
+				F09C0E1B1CEC47DC004EE7F6 /* AppDelegate.m */,
+				F09C0E201CEC47DC004EE7F6 /* Main.storyboard */,
+				F09C0E231CEC47DC004EE7F6 /* Assets.xcassets */,
+				F09C0E281CEC47DC004EE7F6 /* Info.plist */,
+				F09C0E171CEC47DC004EE7F6 /* Supporting Files */,
+			);
+			path = TrumpTweetThat;
+			sourceTree = "<group>";
+		};
+		F09C0E171CEC47DC004EE7F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09C0E251CEC47DC004EE7F6 /* LaunchScreen.storyboard */,
+				F09C0E181CEC47DC004EE7F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F09C0E301CEC47DC004EE7F6 /* TrumpTweetThatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F09C0E311CEC47DC004EE7F6 /* TrumpTweetThatTests.m */,
+				F09C0E331CEC47DC004EE7F6 /* Info.plist */,
+			);
+			path = TrumpTweetThatTests;
+			sourceTree = "<group>";
+		};
+		F09C0E3B1CEC47DD004EE7F6 /* TrumpTweetThatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F09C0E3C1CEC47DD004EE7F6 /* TrumpTweetThatUITests.m */,
+				F09C0E3E1CEC47DD004EE7F6 /* Info.plist */,
+			);
+			path = TrumpTweetThatUITests;
+			sourceTree = "<group>";
+		};
+		F09C0E4D1CEDCF9B004EE7F6 /* SettingTextPage */ = {
+			isa = PBXGroup;
+			children = (
+				F09C0E4A1CEC8BB9004EE7F6 /* SettingViewController.h */,
+				F09C0E4B1CEC8BB9004EE7F6 /* SettingViewController.m */,
+			);
+			name = SettingTextPage;
+			sourceTree = "<group>";
+		};
+		F09C0E4E1CEDCFB7004EE7F6 /* SettingPhotoPage */ = {
+			isa = PBXGroup;
+			children = (
+				F09C0E501CEDD00B004EE7F6 /* SettingPhotoViewController.h */,
+				F09C0E511CEDD00B004EE7F6 /* SettingPhotoViewController.m */,
+			);
+			name = SettingPhotoPage;
+			sourceTree = "<group>";
+		};
+		F09C0E4F1CEDCFD7004EE7F6 /* CompletePage */ = {
+			isa = PBXGroup;
+			children = (
+				F09C0E6B1CEDF828004EE7F6 /* CompleteViewController.h */,
+				F09C0E6C1CEDF828004EE7F6 /* CompleteViewController.m */,
+			);
+			name = CompletePage;
+			sourceTree = "<group>";
+		};
+		F09C0E531CEDD907004EE7F6 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7CAFD1CF2B78300302568 /* Localization */,
+				F024179E1CEF02D700032746 /* checkoutsize.jpg */,
+				F024179C1CEF013700032746 /* title.png */,
+				F0F7CB0B1CF2EA9100302568 /* Donateed.png */,
+				F0F7CAF91CF28EB700302568 /* plus.png */,
+				F0F7CAFB1CF2A1BA00302568 /* basedphoto.png */,
+				F0F7CB031CF2BD6500302568 /* TrumpIcon.png */,
+				F0F7CB051CF2BD6D00302568 /* TrumpIconAlpha.png */,
+				F0F7CAF11CF18D5100302568 /* NextTweet.png */,
+				F0F7CAF31CF1BC3F00302568 /* Trump.png */,
+				F09C0E6F1CEEE5C4004EE7F6 /* bottomphoto.jpg */,
+				F09C0E561CEDEA38004EE7F6 /* 3C8EDC089AD13D2FFAD62BC8C2620FEB.jpg */,
+				F09C0E571CEDEA38004EE7F6 /* 51DEFAE8986A22577E0AA998B3D89DF2.jpg */,
+				F09C0E581CEDEA38004EE7F6 /* 59A553EFB03733F4A179ABA4D0237F07.jpg */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		F09C0E641CEDF2E3004EE7F6 /* CalculateView */ = {
+			isa = PBXGroup;
+			children = (
+				F09C0E651CEDF30F004EE7F6 /* CalCulatedView.h */,
+				F09C0E661CEDF30F004EE7F6 /* CalCulatedView.m */,
+			);
+			name = CalculateView;
+			sourceTree = "<group>";
+		};
+		F0F7CAFD1CF2B78300302568 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7CB021CF2B7CA00302568 /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		F0F7CB071CF2C47B00302568 /* DonatePage */ = {
+			isa = PBXGroup;
+			children = (
+				F0F7CB081CF2C4A900302568 /* DonateViewController.h */,
+				F0F7CB091CF2C4A900302568 /* DonateViewController.m */,
+			);
+			name = DonatePage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09C0E131CEC47DC004EE7F6 /* TrumpTweetThat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09C0E411CEC47DD004EE7F6 /* Build configuration list for PBXNativeTarget "TrumpTweetThat" */;
+			buildPhases = (
+				F09C0E101CEC47DC004EE7F6 /* Sources */,
+				F09C0E111CEC47DC004EE7F6 /* Frameworks */,
+				F09C0E121CEC47DC004EE7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrumpTweetThat;
+			productName = TrumpTweetThat;
+			productReference = F09C0E141CEC47DC004EE7F6 /* TrumpTweetThat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09C0E2C1CEC47DC004EE7F6 /* TrumpTweetThatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09C0E441CEC47DD004EE7F6 /* Build configuration list for PBXNativeTarget "TrumpTweetThatTests" */;
+			buildPhases = (
+				F09C0E291CEC47DC004EE7F6 /* Sources */,
+				F09C0E2A1CEC47DC004EE7F6 /* Frameworks */,
+				F09C0E2B1CEC47DC004EE7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09C0E2F1CEC47DC004EE7F6 /* PBXTargetDependency */,
+			);
+			name = TrumpTweetThatTests;
+			productName = TrumpTweetThatTests;
+			productReference = F09C0E2D1CEC47DC004EE7F6 /* TrumpTweetThatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F09C0E371CEC47DC004EE7F6 /* TrumpTweetThatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09C0E471CEC47DD004EE7F6 /* Build configuration list for PBXNativeTarget "TrumpTweetThatUITests" */;
+			buildPhases = (
+				F09C0E341CEC47DC004EE7F6 /* Sources */,
+				F09C0E351CEC47DC004EE7F6 /* Frameworks */,
+				F09C0E361CEC47DC004EE7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09C0E3A1CEC47DD004EE7F6 /* PBXTargetDependency */,
+			);
+			name = TrumpTweetThatUITests;
+			productName = TrumpTweetThatUITests;
+			productReference = F09C0E381CEC47DD004EE7F6 /* TrumpTweetThatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09C0E0C1CEC47DC004EE7F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Dieber;
+				TargetAttributes = {
+					F09C0E131CEC47DC004EE7F6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 592H6JR5JX;
+					};
+					F09C0E2C1CEC47DC004EE7F6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F09C0E131CEC47DC004EE7F6;
+					};
+					F09C0E371CEC47DC004EE7F6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F09C0E131CEC47DC004EE7F6;
+					};
+				};
+			};
+			buildConfigurationList = F09C0E0F1CEC47DC004EE7F6 /* Build configuration list for PBXProject "TrumpTweetThat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09C0E0B1CEC47DC004EE7F6;
+			productRefGroup = F09C0E151CEC47DC004EE7F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09C0E131CEC47DC004EE7F6 /* TrumpTweetThat */,
+				F09C0E2C1CEC47DC004EE7F6 /* TrumpTweetThatTests */,
+				F09C0E371CEC47DC004EE7F6 /* TrumpTweetThatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09C0E121CEC47DC004EE7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F7CAF41CF1BC3F00302568 /* Trump.png in Resources */,
+				F0F7CB0C1CF2EA9100302568 /* Donateed.png in Resources */,
+				F09C0E5A1CEDEA38004EE7F6 /* 51DEFAE8986A22577E0AA998B3D89DF2.jpg in Resources */,
+				F09C0E271CEC47DC004EE7F6 /* LaunchScreen.storyboard in Resources */,
+				F0F7CB001CF2B7CA00302568 /* Localizable.strings in Resources */,
+				F0F7CAFA1CF28EB700302568 /* plus.png in Resources */,
+				F09C0E241CEC47DC004EE7F6 /* Assets.xcassets in Resources */,
+				F0F7CAFC1CF2A1BA00302568 /* basedphoto.png in Resources */,
+				F09C0E591CEDEA38004EE7F6 /* 3C8EDC089AD13D2FFAD62BC8C2620FEB.jpg in Resources */,
+				F024179D1CEF013700032746 /* title.png in Resources */,
+				F0F7CAF21CF18D5100302568 /* NextTweet.png in Resources */,
+				F09C0E721CEEE5C4004EE7F6 /* bottomphoto.jpg in Resources */,
+				F09C0E5B1CEDEA38004EE7F6 /* 59A553EFB03733F4A179ABA4D0237F07.jpg in Resources */,
+				F0F7CB061CF2BD6D00302568 /* TrumpIconAlpha.png in Resources */,
+				F024179F1CEF02D700032746 /* checkoutsize.jpg in Resources */,
+				F09C0E221CEC47DC004EE7F6 /* Main.storyboard in Resources */,
+				F0F7CB041CF2BD6500302568 /* TrumpIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09C0E2B1CEC47DC004EE7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09C0E361CEC47DC004EE7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09C0E101CEC47DC004EE7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09C0E1C1CEC47DC004EE7F6 /* AppDelegate.m in Sources */,
+				F09C0E671CEDF30F004EE7F6 /* CalCulatedView.m in Sources */,
+				F0F7CB0A1CF2C4A900302568 /* DonateViewController.m in Sources */,
+				F09C0E191CEC47DC004EE7F6 /* main.m in Sources */,
+				F09C0E521CEDD00B004EE7F6 /* SettingPhotoViewController.m in Sources */,
+				F09C0E4C1CEC8BB9004EE7F6 /* SettingViewController.m in Sources */,
+				F09C0E6D1CEDF828004EE7F6 /* CompleteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09C0E291CEC47DC004EE7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09C0E321CEC47DC004EE7F6 /* TrumpTweetThatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09C0E341CEC47DC004EE7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09C0E3D1CEC47DD004EE7F6 /* TrumpTweetThatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09C0E2F1CEC47DC004EE7F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09C0E131CEC47DC004EE7F6 /* TrumpTweetThat */;
+			targetProxy = F09C0E2E1CEC47DC004EE7F6 /* PBXContainerItemProxy */;
+		};
+		F09C0E3A1CEC47DD004EE7F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09C0E131CEC47DC004EE7F6 /* TrumpTweetThat */;
+			targetProxy = F09C0E391CEC47DD004EE7F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F09C0E201CEC47DC004EE7F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09C0E211CEC47DC004EE7F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F09C0E251CEC47DC004EE7F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09C0E261CEC47DC004EE7F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F0F7CB021CF2B7CA00302568 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0F7CB011CF2B7CA00302568 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09C0E3F1CEC47DD004EE7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: baowei wang (592H6JR5JX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: baowei wang (592H6JR5JX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "55197ca9-65cc-47c7-b718-325843d5ec45";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F09C0E401CEC47DD004EE7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: baowei wang (592H6JR5JX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: baowei wang (592H6JR5JX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "55197ca9-65cc-47c7-b718-325843d5ec45";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09C0E421CEC47DD004EE7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TrumpTweetThat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.onestory.TrumpTweetThat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F09C0E431CEC47DD004EE7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TrumpTweetThat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.onestory.TrumpTweetThat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F09C0E451CEC47DD004EE7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrumpTweetThatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Awesome.TrumpTweetThatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrumpTweetThat.app/TrumpTweetThat";
+			};
+			name = Debug;
+		};
+		F09C0E461CEC47DD004EE7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrumpTweetThatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Awesome.TrumpTweetThatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrumpTweetThat.app/TrumpTweetThat";
+			};
+			name = Release;
+		};
+		F09C0E481CEC47DD004EE7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrumpTweetThatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Awesome.TrumpTweetThatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrumpTweetThat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F09C0E491CEC47DD004EE7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrumpTweetThatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Awesome.TrumpTweetThatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrumpTweetThat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09C0E0F1CEC47DC004EE7F6 /* Build configuration list for PBXProject "TrumpTweetThat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09C0E3F1CEC47DD004EE7F6 /* Debug */,
+				F09C0E401CEC47DD004EE7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09C0E411CEC47DD004EE7F6 /* Build configuration list for PBXNativeTarget "TrumpTweetThat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09C0E421CEC47DD004EE7F6 /* Debug */,
+				F09C0E431CEC47DD004EE7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09C0E441CEC47DD004EE7F6 /* Build configuration list for PBXNativeTarget "TrumpTweetThatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09C0E451CEC47DD004EE7F6 /* Debug */,
+				F09C0E461CEC47DD004EE7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09C0E471CEC47DD004EE7F6 /* Build configuration list for PBXNativeTarget "TrumpTweetThatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09C0E481CEC47DD004EE7F6 /* Debug */,
+				F09C0E491CEC47DD004EE7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09C0E0C1CEC47DC004EE7F6 /* Project object */;
+}
